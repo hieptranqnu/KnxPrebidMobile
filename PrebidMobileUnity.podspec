@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.source =
   {
-    :http => "https://github.com/hieptranqnu/SDK-Sample/raw/refs/heads/main/PrebidMobileUnity.zip",
-    :type => "zip"
+    :git => "git@github.com:hieptranqnu/PrebidMobileUnity.git"
   }
   s.vendored_frameworks = 'XCPrebidMobileUnity.xcframework'
   s.xcconfig     = {
