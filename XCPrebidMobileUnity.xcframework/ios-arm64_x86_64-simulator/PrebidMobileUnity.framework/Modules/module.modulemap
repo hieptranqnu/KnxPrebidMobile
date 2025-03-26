@@ -1,0 +1,11 @@
+framework module PrebidMobileUnity {
+  umbrella header "PrebidMobileUnity.h"
+  export *
+
+  module * { export * }
+}
+
+module PrebidMobileUnity.Swift {
+  header "PrebidMobileUnity-Swift.h"
+  requires objc
+}
