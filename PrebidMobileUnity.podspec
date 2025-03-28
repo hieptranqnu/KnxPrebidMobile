@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.dependency 'PrebidMobile', :git => 'git@github.com:hieptranqnu/PrebidMobileUnity.git'
+  s.dependency 'PrebidMobile', :podspec => 'https://github.com/hieptranqnu/PrebidMobileUnity/raw/refs/heads/main/PrebidMobile/PrebidMobile.podspec'
 
 end
